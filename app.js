@@ -46,6 +46,10 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
+  console.log();
+  console.log();
+  console.log();
+
 //Check if all numbers are divisible by 5. Cache the result in a variable.
     let isDivisibleBy5 = ( n1 % 5 == 0 && n2 % 5 == 0 && n3 % 5 == 0 && n4 % 5 == 0 );
     console.log("Divisible by 5 = "+isDivisibleBy5);
@@ -66,7 +70,9 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 //Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
     const isUnder25 = n1 <= 25 || n2 <= 25 || n3 <= 25 || n4 <= 25;
 
-
+    console.log();
+    console.log();
+    console.log();
 
 //    You are planning a cross-country road trip!
 //    The distance of the trip, in total, is 1,500 miles.
@@ -92,6 +98,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   let tripLength;
 
     //Average speed of 55
+    console.log();
     tripSpeed = 55;
     tripEfficiency = 30;
     console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
@@ -105,6 +112,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
         tripLength = ( tripTotal / tripSpeed );
         console.log("The trip will take "+tripLength+" hours.");
     //Average speed of 60
+    console.log();
     tripSpeed = 60;
     tripEfficiency =28;
     console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
@@ -118,6 +126,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
         tripLength = ( tripTotal / tripSpeed );
         console.log("The trip will take "+tripLength+" hours.");
     //Average speed of 65
+    console.log();
     tripSpeed = 65;
     tripEfficiency =23;
     console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
