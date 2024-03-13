@@ -89,6 +89,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   let tripEfficiency;
   let fuelNeeded;
   let budgetSufficient;
+  let tripLength;
 
     //Average speed of 55
     tripSpeed = 55;
@@ -99,4 +100,8 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
         //Will your budget be enough to cover the fuel expense?
         budgetSufficient = ( fuelNeeded * fuelCost <= tripBudget );
         console.log("Is your budget sufficient? "+budgetSufficient);
+        //How long will the trip take, in hours?
+        tripLength = ( tripTotal / tripSpeed );
+        console.log("The trip will take "+tripLength+" hours.");
+    
 
