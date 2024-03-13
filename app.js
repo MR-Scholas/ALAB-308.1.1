@@ -94,6 +94,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
     //Average speed of 55
     tripSpeed = 55;
     tripEfficiency = 30;
+    console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
         //How many gallons of fuel will you need for the entire trip?
         fuelNeeded = ( tripTotal / tripEfficiency );
         console.log("You will need "+fuelNeeded+" gallons.");
@@ -103,5 +104,29 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
         //How long will the trip take, in hours?
         tripLength = ( tripTotal / tripSpeed );
         console.log("The trip will take "+tripLength+" hours.");
-    
-
+    //Average speed of 60
+    tripSpeed = 60;
+    tripEfficiency =28;
+    console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
+        //How many gallons of fuel will you need for the entire trip?
+        fuelNeeded = ( tripTotal / tripEfficiency );
+        console.log("You will need "+fuelNeeded+" gallons.");
+        //Will your budget be enough to cover the fuel expense?
+        budgetSufficient = ( fuelNeeded * fuelCost <= tripBudget );
+        console.log("Is your budget sufficient? "+budgetSufficient);
+        //How long will the trip take, in hours?
+        tripLength = ( tripTotal / tripSpeed );
+        console.log("The trip will take "+tripLength+" hours.");
+    //Average speed of 65
+    tripSpeed = 60;
+    tripEfficiency =23;
+    console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
+        //How many gallons of fuel will you need for the entire trip?
+        fuelNeeded = ( tripTotal / tripEfficiency );
+        console.log("You will need "+fuelNeeded+" gallons.");
+        //Will your budget be enough to cover the fuel expense?
+        budgetSufficient = ( fuelNeeded * fuelCost <= tripBudget );
+        console.log("Is your budget sufficient? "+budgetSufficient);
+        //How long will the trip take, in hours?
+        tripLength = ( tripTotal / tripSpeed );
+        console.log("The trip will take "+tripLength+" hours.");
