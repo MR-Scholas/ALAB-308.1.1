@@ -72,7 +72,6 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
     console.log(" ");
     console.log(" ");
-    console.log(" ");
 
 //    You are planning a cross-country road trip!
 //    The distance of the trip, in total, is 1,500 miles.
