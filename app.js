@@ -118,7 +118,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
         tripLength = ( tripTotal / tripSpeed );
         console.log("The trip will take "+tripLength+" hours.");
     //Average speed of 65
-    tripSpeed = 60;
+    tripSpeed = 65;
     tripEfficiency =23;
     console.log("Speed = "+tripSpeed+", Efficiency = "+tripEfficiency)
         //How many gallons of fuel will you need for the entire trip?
